@@ -30,6 +30,7 @@ configFiles:
 include:
     - Features/Features.yml
     - Clients/MeditationsClient/MeditationsClient.yml
+    - Utilities/Utilities.yml
 packages:
   Swinject:
     url: https://github.com/Swinject/Swinject.git
@@ -81,6 +82,7 @@ targetTemplates:
     dependencies:
       - target: Features
       - target: MeditationsClient
+      - target: Utilities
       - package: Swinject
       - package: SwinjectAutoregistration
     prebuildScripts:

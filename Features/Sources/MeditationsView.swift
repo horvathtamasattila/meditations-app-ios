@@ -1,6 +1,6 @@
 import SwiftUI
 
-public struct ContentView: View {
+public struct MeditationsView: View {
     public init() {}
     public var body: some View {
         Text("Hello World!")
@@ -9,6 +9,6 @@ public struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MeditationsView()
     }
 }

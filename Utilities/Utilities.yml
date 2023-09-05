@@ -1,0 +1,11 @@
+---
+targets:
+  Utilities:
+    type: framework
+    platform: iOS
+    sources:
+      - path: Sources
+        createIntermediateGroups: true
+    dependencies:
+      - package: Swinject
+      - package: SwinjectAutoregistration
