@@ -3,31 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02596F032AA772FA007C10CA /* MeditationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02596F022AA772FA007C10CA /* MeditationsViewModel.swift */; };
-		02596F052AA77375007C10CA /* MeditationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02596F042AA77375007C10CA /* MeditationsInteractor.swift */; };
 		0457A2C791CEB701DD5B5201 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8058981A12DCF87B42A2AC92 /* AppAssembly.swift */; };
 		055FCC2C39971CA4E95AF268 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF265C821FAC62041768AA /* LocationProvider.swift */; };
+		072365BF9AB3347C8071806D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A5F181B7C00868AAAFAD73 /* Colors.xcassets */; };
 		080B394147A0FDE7D477F81E /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = C97481AEA1D3851D2CB26657 /* SwinjectAutoregistration */; };
 		08CB384E8F9E2AF4BE5DFFCB /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808AB8EA0CCA3B30B11F1A96 /* Domain.swift */; };
 		0BC209FF661A24E465950AAB /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 2F7477C1817B2717F71F895A /* Swinject */; };
 		0CE2569F2F89E29A566D5430 /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A441A6AC7BD5645255491D7 /* Utilities.framework */; };
+		0D1747CBE6B26839D2B7E38B /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DF4FA9DE035BD5B2C669EE /* Color+.swift */; };
 		199E3FAF146399FC35AC4A0E /* Meditations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBCE0E5F7A3FE449015FD35 /* Meditations.swift */; };
 		1EF003532B30214703258405 /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A441A6AC7BD5645255491D7 /* Utilities.framework */; };
 		1F18BEF6FE008E74E17D4B74 /* MeditationsClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; };
 		26B4319943142BEB9A6D4BEA /* get_meditations_with_location_200.json in Resources */ = {isa = PBXBuildFile; fileRef = 354DF0F61ECBDBFA36379067 /* get_meditations_with_location_200.json */; };
 		2A193D1B443EFD55C491D0EA /* get_meditations_200.json in Resources */ = {isa = PBXBuildFile; fileRef = F424C6F039AB188615125AFB /* get_meditations_200.json */; };
+		2AC8369BEAFD67CD0FA06C52 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A5F181B7C00868AAAFAD73 /* Colors.xcassets */; };
 		333CDEC3AB5666CDCF0DDB64 /* Features.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35CC8EDB3189A9CF2A76A596 /* MeditationsClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; };
 		372B54F82AD385897F6C0DD2 /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A441A6AC7BD5645255491D7 /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3C482594ACA9596FA0AAC1D8 /* Features.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3CCF419514331BE1151E24E4 /* SpaceGrotesk-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186D1F584230A6161D38ADA8 /* SpaceGrotesk-Medium.otf */; };
 		3D83D05909FFBE80B087CF9C /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D07F965DFF57992B60B6241B /* Swinject */; };
 		44FCCFCF94A44C1DD6C322F9 /* MeditationsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516DD0E05D6520147972A3D3 /* MeditationsClient.swift */; };
+		48AB7A8ED163ECB533387804 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A5F181B7C00868AAAFAD73 /* Colors.xcassets */; };
 		4976956AD5BD4124F89F24B8 /* get_meditations_200.json in Resources */ = {isa = PBXBuildFile; fileRef = F424C6F039AB188615125AFB /* get_meditations_200.json */; };
 		49F55C6CC07F4031C9304506 /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A441A6AC7BD5645255491D7 /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4DFF91DB3973DB27B2F9D3AB /* SpaceGrotesk-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186D1F584230A6161D38ADA8 /* SpaceGrotesk-Medium.otf */; };
 		5408F330DEA8355D34F8BF0D /* MeditationsClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		55B88EE63D9D0B01F8711239 /* Meditations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBCE0E5F7A3FE449015FD35 /* Meditations.swift */; };
 		59D378D7E8A9D1518CD2183D /* Features.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -45,6 +49,7 @@
 		903178B7E239F76A1C836B88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E68E7A6722F6568E28B1D7 /* Preview Assets.xcassets */; };
 		9079088E6B1B8E481DAD92B5 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8058981A12DCF87B42A2AC92 /* AppAssembly.swift */; };
 		941088A925A0DAE3614CC2A1 /* MeditationsClientLive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 058D128A98F62956B6046360 /* MeditationsClientLive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		962C7F00F5E159268F7B1FBB /* MeditationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3385B2819F15AEE5B4B53 /* MeditationsViewModel.swift */; };
 		A561511BC657E2F0E29CCBF5 /* Features.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; };
 		AD5D7C0651541028BCA793CB /* get_meditations_with_location_200.json in Resources */ = {isa = PBXBuildFile; fileRef = 354DF0F61ECBDBFA36379067 /* get_meditations_with_location_200.json */; };
 		AE02217B3C597551165D50D0 /* MeditationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FEA33FAEF7B451FA02E5A7 /* MeditationsView.swift */; };
@@ -57,6 +62,7 @@
 		BC8FE2503EEA27070A510DCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E68E7A6722F6568E28B1D7 /* Preview Assets.xcassets */; };
 		C785DD9247FD1047B6FCAA50 /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1105FAB482003F1AE0981C4 /* DI.swift */; };
 		C9353D8EB1BC7BF0235CEC0B /* get_meditations_with_location_200.json in Resources */ = {isa = PBXBuildFile; fileRef = 354DF0F61ECBDBFA36379067 /* get_meditations_with_location_200.json */; };
+		CDA8BD2DDC8EEDE5B47680A9 /* MeditationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F035A99C28D5A10FA0197DC /* MeditationsInteractor.swift */; };
 		CEBFC9187D566F7CA54E44E2 /* get_meditations_200.json in Resources */ = {isa = PBXBuildFile; fileRef = F424C6F039AB188615125AFB /* get_meditations_200.json */; };
 		D20CF9811F0E277F3E3A56CD /* Features.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; };
 		D4C6C4F13B6E44DF94B69DF0 /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = CA5B578E2CC6C48CF38D0427 /* SwinjectAutoregistration */; };
@@ -67,8 +73,10 @@
 		E7DB07F7FF3379C72C9C9963 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = DFBFD9F804C4E7F4467CA5BE /* Swinject */; };
 		E94DEBED1F9B8924FFBA439A /* MeditationsClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; };
 		EEDAA0F2DE409107245CAFAA /* MeditationsClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0BD8604C912CAC1B962D9B0 /* SpaceGrotesk-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186D1F584230A6161D38ADA8 /* SpaceGrotesk-Medium.otf */; };
 		F85A677FBD3990F55E07817D /* UtilitiesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F5159AFEE3197FD16A1F5 /* UtilitiesAssembly.swift */; };
 		FC3071E2128D6DD1D50E0A90 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7AD50798C01A2E39EDB105 /* Swinject */; };
+		FF18BF891D75BE6682687BD0 /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BDE50C314DDB8B7EB6C11F /* Font+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,12 +211,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		02596F022AA772FA007C10CA /* MeditationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsViewModel.swift; sourceTree = "<group>"; };
-		02596F042AA77375007C10CA /* MeditationsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsInteractor.swift; sourceTree = "<group>"; };
 		058D128A98F62956B6046360 /* MeditationsClientLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeditationsClientLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BDE50C314DDB8B7EB6C11F /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 		0902883730EE044AB246CBDB /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		108DB2B8F3D1AC07C0E8E678 /* Features.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Features.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FEA33FAEF7B451FA02E5A7 /* MeditationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsView.swift; sourceTree = "<group>"; };
+		186D1F584230A6161D38ADA8 /* SpaceGrotesk-Medium.otf */ = {isa = PBXFileReference; path = "SpaceGrotesk-Medium.otf"; sourceTree = "<group>"; };
 		354DF0F61ECBDBFA36379067 /* get_meditations_with_location_200.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_meditations_with_location_200.json; sourceTree = "<group>"; };
 		404B23ADDB8172B0F16C298C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		516DD0E05D6520147972A3D3 /* MeditationsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsClient.swift; sourceTree = "<group>"; };
@@ -218,17 +226,21 @@
 		7A441A6AC7BD5645255491D7 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8058981A12DCF87B42A2AC92 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		808AB8EA0CCA3B30B11F1A96 /* Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
+		81DF4FA9DE035BD5B2C669EE /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		827CC73933A79032433B93A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		84059DE809FA1E99E1A92755 /* MeditationsClientLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsClientLive.swift; sourceTree = "<group>"; };
 		8414FE6041CCBEE998C33A6B /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		858DE55E040437432757CAF6 /* Mock.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Mock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FD1B38AF7AF37AD1C17DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D0F5159AFEE3197FD16A1F5 /* UtilitiesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesAssembly.swift; sourceTree = "<group>"; };
+		8F035A99C28D5A10FA0197DC /* MeditationsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsInteractor.swift; sourceTree = "<group>"; };
 		B080E3B4B7F546FA708485D1 /* Production.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B562A7B669D9B1913A05D75F /* FeaturesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesAssembly.swift; sourceTree = "<group>"; };
+		C0A5F181B7C00868AAAFAD73 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		C58B51E99DB194C0D1F4DDF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C9980CAC74B5A8A7448C7DD1 /* MeditationsClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsClientMock.swift; sourceTree = "<group>"; };
 		CCCF265C821FAC62041768AA /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		DDF3385B2819F15AEE5B4B53 /* MeditationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsViewModel.swift; sourceTree = "<group>"; };
 		E1105FAB482003F1AE0981C4 /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
 		E765B3A1C49160433A7C8865 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeditationsClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -381,9 +393,20 @@
 			isa = PBXGroup;
 			children = (
 				404B23ADDB8172B0F16C298C /* Assets.xcassets */,
+				C0A5F181B7C00868AAAFAD73 /* Colors.xcassets */,
 				88FD1B38AF7AF37AD1C17DFC /* Info.plist */,
+				186D1F584230A6161D38ADA8 /* SpaceGrotesk-Medium.otf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		94BB69574F030385A3901FEB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				81DF4FA9DE035BD5B2C669EE /* Color+.swift */,
+				08BDE50C314DDB8B7EB6C11F /* Font+.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		9B50759B0B6D5A5561CF4222 /* System */ = {
@@ -495,10 +518,11 @@
 			isa = PBXGroup;
 			children = (
 				827CC73933A79032433B93A2 /* Info.plist */,
+				8F035A99C28D5A10FA0197DC /* MeditationsInteractor.swift */,
 				17FEA33FAEF7B451FA02E5A7 /* MeditationsView.swift */,
+				DDF3385B2819F15AEE5B4B53 /* MeditationsViewModel.swift */,
 				9B50759B0B6D5A5561CF4222 /* System */,
-				02596F022AA772FA007C10CA /* MeditationsViewModel.swift */,
-				02596F042AA77375007C10CA /* MeditationsInteractor.swift */,
+				94BB69574F030385A3901FEB /* Utils */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -722,7 +746,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E536D261995926460DD0DD /* Assets.xcassets in Resources */,
+				2AC8369BEAFD67CD0FA06C52 /* Colors.xcassets in Resources */,
 				B6C9C6D82D1EECAB38B27F12 /* Preview Assets.xcassets in Resources */,
+				F0BD8604C912CAC1B962D9B0 /* SpaceGrotesk-Medium.otf in Resources */,
 				2A193D1B443EFD55C491D0EA /* get_meditations_200.json in Resources */,
 				26B4319943142BEB9A6D4BEA /* get_meditations_with_location_200.json in Resources */,
 			);
@@ -733,7 +759,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				808A3869A092DE1BDA71BE28 /* Assets.xcassets in Resources */,
+				072365BF9AB3347C8071806D /* Colors.xcassets in Resources */,
 				BC8FE2503EEA27070A510DCD /* Preview Assets.xcassets in Resources */,
+				3CCF419514331BE1151E24E4 /* SpaceGrotesk-Medium.otf in Resources */,
 				4976956AD5BD4124F89F24B8 /* get_meditations_200.json in Resources */,
 				AD5D7C0651541028BCA793CB /* get_meditations_with_location_200.json in Resources */,
 			);
@@ -744,7 +772,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FB3FA23BD372CA9849B5453 /* Assets.xcassets in Resources */,
+				48AB7A8ED163ECB533387804 /* Colors.xcassets in Resources */,
 				903178B7E239F76A1C836B88 /* Preview Assets.xcassets in Resources */,
+				4DFF91DB3973DB27B2F9D3AB /* SpaceGrotesk-Medium.otf in Resources */,
 				CEBFC9187D566F7CA54E44E2 /* get_meditations_200.json in Resources */,
 				C9353D8EB1BC7BF0235CEC0B /* get_meditations_with_location_200.json in Resources */,
 			);
@@ -849,11 +879,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1747CBE6B26839D2B7E38B /* Color+.swift in Sources */,
 				C785DD9247FD1047B6FCAA50 /* DI.swift in Sources */,
-				02596F052AA77375007C10CA /* MeditationsInteractor.swift in Sources */,
 				BB0ADC1BF7F898ECAAC8A601 /* FeaturesAssembly.swift in Sources */,
-				02596F032AA772FA007C10CA /* MeditationsViewModel.swift in Sources */,
+				FF18BF891D75BE6682687BD0 /* Font+.swift in Sources */,
+				CDA8BD2DDC8EEDE5B47680A9 /* MeditationsInteractor.swift in Sources */,
 				AE02217B3C597551165D50D0 /* MeditationsView.swift in Sources */,
+				962C7F00F5E159268F7B1FBB /* MeditationsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
