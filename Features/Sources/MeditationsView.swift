@@ -6,9 +6,13 @@ public struct MeditationsView: View {
     public var body: some View {
         ZStack {
             Color.secondaryGray
-            cardView(title: "Title", description: "Description", audioLenght: 4)
-                .padding(.horizontal, 16)
+            ScrollView {
+                ForEach(viewModel.meditations, id: \.self) { meditation in
+                    cardView(title: meditation.title, description: meditation.subtitle, audioLenght: meditation.audioLength)
+                }
+            }
         }
+        .edgesIgnoringSafeArea(.all)
     }
 
     func cardView(title: String, description: String, audioLenght: Int?) -> some View {

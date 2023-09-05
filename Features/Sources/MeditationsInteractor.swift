@@ -15,8 +15,20 @@ final class MeditationsInteractor {
     init(meditationsClient: MeditationsClient, locationProvider: LocationProvider) {
         self.locationProvider = locationProvider
         self.meditationsClient = meditationsClient
-        self.meditationsPublisher = PassthroughSubject<[Meditation], Never>()
+        meditationsPublisher = PassthroughSubject<[Meditation], Never>()
         unowned let unownedSelf = self
+
+        if !locationProvider.isEnabled {
+            meditationsClient.getMeditations(nil)
+                .sink(
+                    receiveCompletion: { _ in
+                    },
+                    receiveValue: { meditations in
+                        unownedSelf.meditationsPublisher.send(meditations)
+                    }
+                )
+                .store(in: &cancellables)
+        }
 
         locationProvider.$lastSeenLocation
             .flatMap { location -> AnyPublisher<[Meditation], ApiError> in
