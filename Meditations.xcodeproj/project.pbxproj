@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02596F032AA772FA007C10CA /* MeditationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02596F022AA772FA007C10CA /* MeditationsViewModel.swift */; };
+		02596F052AA77375007C10CA /* MeditationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02596F042AA77375007C10CA /* MeditationsInteractor.swift */; };
 		0457A2C791CEB701DD5B5201 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8058981A12DCF87B42A2AC92 /* AppAssembly.swift */; };
 		055FCC2C39971CA4E95AF268 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF265C821FAC62041768AA /* LocationProvider.swift */; };
 		080B394147A0FDE7D477F81E /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = C97481AEA1D3851D2CB26657 /* SwinjectAutoregistration */; };
@@ -201,6 +203,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02596F022AA772FA007C10CA /* MeditationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsViewModel.swift; sourceTree = "<group>"; };
+		02596F042AA77375007C10CA /* MeditationsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsInteractor.swift; sourceTree = "<group>"; };
 		058D128A98F62956B6046360 /* MeditationsClientLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeditationsClientLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0902883730EE044AB246CBDB /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		108DB2B8F3D1AC07C0E8E678 /* Features.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Features.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -493,6 +497,8 @@
 				827CC73933A79032433B93A2 /* Info.plist */,
 				17FEA33FAEF7B451FA02E5A7 /* MeditationsView.swift */,
 				9B50759B0B6D5A5561CF4222 /* System */,
+				02596F022AA772FA007C10CA /* MeditationsViewModel.swift */,
+				02596F042AA77375007C10CA /* MeditationsInteractor.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -844,7 +850,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C785DD9247FD1047B6FCAA50 /* DI.swift in Sources */,
+				02596F052AA77375007C10CA /* MeditationsInteractor.swift in Sources */,
 				BB0ADC1BF7F898ECAAC8A601 /* FeaturesAssembly.swift in Sources */,
+				02596F032AA772FA007C10CA /* MeditationsViewModel.swift in Sources */,
 				AE02217B3C597551165D50D0 /* MeditationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,7 +19,7 @@ public class LocationProvider: NSObject, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
     }
 
-    func requestPermission() {
+    public func requestPermission() {
         locationManager.requestWhenInUseAuthorization()
     }
 

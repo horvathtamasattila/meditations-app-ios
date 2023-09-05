@@ -3,5 +3,7 @@ import SwinjectAutoregistration
 
 public class FeaturesAssembly: Assembly {
     public init() {}
-    public func assemble(container: Container) {}
+    public func assemble(container: Container) {
+        container.autoregister(MeditationsViewModel.self, initializer: MeditationsViewModel.init)
+    }
 }
