@@ -1,0 +1,108 @@
+---
+name: Meditations
+options:
+  bundleIdPrefix: com.meditations.app
+  transitivelyLinkDependencies: true
+  deploymentTarget:
+    iOS: 14.0
+settings:
+  base:
+    CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED: true
+    CODE_SIGN_STYLE: Automatic
+    DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
+    ENABLE_BITCODE: false
+    GCC_OPTIMIZATION_LEVEL: 0
+    SWIFT_COMPILATION_MODE: singlefile
+    SWIFT_OPTIMIZATION_LEVEL: -Onone
+    TARGETED_DEVICE_FAMILY: 1
+  configs:
+    release:
+      ENABLE_BITCODE: true
+      GCC_OPTIMIZATION_LEVEL: s
+      SWIFT_COMPILATION_MODE: wholemodule
+      SWIFT_OPTIMIZATION_LEVEL: -O
+configs:
+  Debug: debug
+  Release: release
+configFiles:
+  Debug: Configs/Debug.xcconfig
+  Release: Configs/Release.xcconfig
+include:
+    - Features/Features.yml
+packages:
+  Swinject:
+    url: https://github.com/Swinject/Swinject.git
+    version: 2.8.2
+  SwinjectAutoregistration:
+    url: https://github.com/Swinject/SwinjectAutoregistration.git
+    version: 2.8.1
+targets:
+  Mock:
+    type: application
+    platform: iOS
+    templates: 
+      - Meditations
+    sources:
+      - path: Meditations/Configurations/Mock
+        createIntermediateGroups: true
+  Development:
+    type: application
+    platform: iOS
+    templates: 
+      - Meditations
+    sources:
+      - path: Meditations/Configurations/Live
+        createIntermediateGroups: true
+  Production:
+    type: application
+    platform: iOS
+    templates: 
+      - Meditations
+    sources:
+      - path: Meditations/Configurations/Live
+        createIntermediateGroups: true
+targetTemplates:
+  Meditations:
+    type: application
+    platform: iOS
+    sources:
+      - path: Meditations/Common
+        createIntermediateGroups: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.meditations.app
+    dependencies:
+      - target: Features
+      - package: Swinject
+      - package: SwinjectAutoregistration
+    prebuildScripts:
+      - name: CodeFormatting
+        path: "scripts/pre_build_code_formatting.sh"
+schemes:
+  Mock:
+    build:
+      targets:
+        Mock: all
+    run:
+      config: Debug
+    archive:
+      config: Debug
+    test:
+      config: Debug
+  Development:
+    build:
+      targets:
+        Development: all
+    run:
+      config: Debug
+    archive:
+      config: Debug
+    test:
+      config: Debug
+  Production:
+    build:
+      targets:
+        Production: all
+      config: Release
+    archive:
+      config: Release
