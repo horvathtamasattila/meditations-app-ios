@@ -48,5 +48,7 @@
 	<array>
 		<string>SpaceGrotesk-Medium.otf</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to provide you the top medittions in your area</string>
 </dict>
 </plist>

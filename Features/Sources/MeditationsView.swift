@@ -4,15 +4,34 @@ public struct MeditationsView: View {
     @StateObject var viewModel = inject(MeditationsViewModel.self)
     public init() {}
     public var body: some View {
-        ZStack {
-            Color.secondaryGray
+        VStack(spacing: .zero) {
+            HStack {
+                Spacer()
+                Image(systemName: "location.circle")
+                    .resizable()
+                    .frame(width: 32, height: 32)
+                    .foregroundColor(.gray)
+                    .padding(.trailing, 16)
+                    .padding(.top, 8)
+                    .padding(.bottom, 32)
+                    .onTapGesture {
+                        viewModel.requestLocationDidtap()
+                    }
+            }
             ScrollView {
                 ForEach(viewModel.meditations, id: \.self) { meditation in
-                    cardView(title: meditation.title, description: meditation.subtitle, audioLenght: meditation.audioLength)
+                    cardView(
+                        title: meditation.title,
+                        description: meditation.subtitle,
+                        audioLenght: meditation.audioLength
+                    )
+                    .padding(.horizontal, 16)
                 }
             }
         }
-        .edgesIgnoringSafeArea(.all)
+        .background(
+            Color.secondaryGray.edgesIgnoringSafeArea(.all)
+        )
     }
 
     func cardView(title: String, description: String, audioLenght: Int?) -> some View {
