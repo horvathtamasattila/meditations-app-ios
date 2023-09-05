@@ -9,25 +9,44 @@
 /* Begin PBXBuildFile section */
 		0457A2C791CEB701DD5B5201 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8058981A12DCF87B42A2AC92 /* AppAssembly.swift */; };
 		080B394147A0FDE7D477F81E /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = C97481AEA1D3851D2CB26657 /* SwinjectAutoregistration */; };
+		08CB384E8F9E2AF4BE5DFFCB /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808AB8EA0CCA3B30B11F1A96 /* Domain.swift */; };
 		0BC209FF661A24E465950AAB /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 2F7477C1817B2717F71F895A /* Swinject */; };
 		0C07EDCC414E6AB65D433B6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77773AB359D7DD794585CEE9 /* ContentView.swift */; };
 		199E3FAF146399FC35AC4A0E /* Meditations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBCE0E5F7A3FE449015FD35 /* Meditations.swift */; };
+		1F18BEF6FE008E74E17D4B74 /* MeditationsClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; };
+		26B4319943142BEB9A6D4BEA /* get_meditations_with_location_200.json in Resources */ = {isa = PBXBuildFile; fileRef = 354DF0F61ECBDBFA36379067 /* get_meditations_with_location_200.json */; };
+		2A193D1B443EFD55C491D0EA /* get_meditations_200.json in Resources */ = {isa = PBXBuildFile; fileRef = F424C6F039AB188615125AFB /* get_meditations_200.json */; };
 		333CDEC3AB5666CDCF0DDB64 /* Features.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35CC8EDB3189A9CF2A76A596 /* MeditationsClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; };
 		3C482594ACA9596FA0AAC1D8 /* Features.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44FCCFCF94A44C1DD6C322F9 /* MeditationsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516DD0E05D6520147972A3D3 /* MeditationsClient.swift */; };
+		4976956AD5BD4124F89F24B8 /* get_meditations_200.json in Resources */ = {isa = PBXBuildFile; fileRef = F424C6F039AB188615125AFB /* get_meditations_200.json */; };
+		5408F330DEA8355D34F8BF0D /* MeditationsClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		55B88EE63D9D0B01F8711239 /* Meditations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBCE0E5F7A3FE449015FD35 /* Meditations.swift */; };
 		59D378D7E8A9D1518CD2183D /* Features.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B2FAFC8D9B5EA8B59C5862F /* MeditationsClientLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058D128A98F62956B6046360 /* MeditationsClientLive.framework */; };
+		60658EAC64E8F8B24893007A /* MeditationsClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		67A587C9A7E6D049676BBBA0 /* MeditationsClientLive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 058D128A98F62956B6046360 /* MeditationsClientLive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C66D79BB129F30C82A56BBA /* MeditationsClientLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84059DE809FA1E99E1A92755 /* MeditationsClientLive.swift */; };
+		80661750F5BE7BB2EB71FA9E /* MeditationsClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9980CAC74B5A8A7448C7DD1 /* MeditationsClientMock.swift */; };
 		808A3869A092DE1BDA71BE28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404B23ADDB8172B0F16C298C /* Assets.xcassets */; };
 		8281256D04D970070F47B9D8 /* Meditations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBCE0E5F7A3FE449015FD35 /* Meditations.swift */; };
+		82851EE77DC0EBE8471BF4AA /* MeditationsClientLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058D128A98F62956B6046360 /* MeditationsClientLive.framework */; };
 		8FB3FA23BD372CA9849B5453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404B23ADDB8172B0F16C298C /* Assets.xcassets */; };
 		903178B7E239F76A1C836B88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E68E7A6722F6568E28B1D7 /* Preview Assets.xcassets */; };
 		9079088E6B1B8E481DAD92B5 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8058981A12DCF87B42A2AC92 /* AppAssembly.swift */; };
+		941088A925A0DAE3614CC2A1 /* MeditationsClientLive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 058D128A98F62956B6046360 /* MeditationsClientLive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A561511BC657E2F0E29CCBF5 /* Features.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; };
+		AD5D7C0651541028BCA793CB /* get_meditations_with_location_200.json in Resources */ = {isa = PBXBuildFile; fileRef = 354DF0F61ECBDBFA36379067 /* get_meditations_with_location_200.json */; };
 		B11BB581E632C3275123EF68 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = FBD7AC86E76CDCAD8218AC3F /* Swinject */; };
 		B597F979E2A6E3AF64EDA00B /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765B3A1C49160433A7C8865 /* AppAssembly.swift */; };
 		B6C9C6D82D1EECAB38B27F12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E68E7A6722F6568E28B1D7 /* Preview Assets.xcassets */; };
+		B72FB7F35C995FC4D314D9A4 /* MeditationsClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; };
 		BB0ADC1BF7F898ECAAC8A601 /* FeaturesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562A7B669D9B1913A05D75F /* FeaturesAssembly.swift */; };
 		BC8FE2503EEA27070A510DCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E68E7A6722F6568E28B1D7 /* Preview Assets.xcassets */; };
 		C785DD9247FD1047B6FCAA50 /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1105FAB482003F1AE0981C4 /* DI.swift */; };
+		C9353D8EB1BC7BF0235CEC0B /* get_meditations_with_location_200.json in Resources */ = {isa = PBXBuildFile; fileRef = 354DF0F61ECBDBFA36379067 /* get_meditations_with_location_200.json */; };
+		CEBFC9187D566F7CA54E44E2 /* get_meditations_200.json in Resources */ = {isa = PBXBuildFile; fileRef = F424C6F039AB188615125AFB /* get_meditations_200.json */; };
 		D20CF9811F0E277F3E3A56CD /* Features.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; };
 		D4C6C4F13B6E44DF94B69DF0 /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = CA5B578E2CC6C48CF38D0427 /* SwinjectAutoregistration */; };
 		D4E536D261995926460DD0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404B23ADDB8172B0F16C298C /* Assets.xcassets */; };
@@ -35,10 +54,26 @@
 		D965EE1700010CAE8693DDC2 /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 10C2FAE38F8A5247A0DA6EC2 /* SwinjectAutoregistration */; };
 		E1F0C21F3D8677F0ACA5FC6C /* Features.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; };
 		E7DB07F7FF3379C72C9C9963 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = DFBFD9F804C4E7F4467CA5BE /* Swinject */; };
+		E94DEBED1F9B8924FFBA439A /* MeditationsClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; };
+		EEDAA0F2DE409107245CAFAA /* MeditationsClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FC3071E2128D6DD1D50E0A90 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7AD50798C01A2E39EDB105 /* Swinject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		02FEE667E449FA2D48DCB26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49884E5FD6CA0F990875343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E175427CD90E5F0C3C07F588;
+			remoteInfo = MeditationsClientLive;
+		};
+		30118327D7BFBBB7CBEAF0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49884E5FD6CA0F990875343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184D62C190D0CC630F701E5A;
+			remoteInfo = MeditationsClient;
+		};
 		4A1FAB97535DB8F7279B8CA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B49884E5FD6CA0F990875343 /* Project object */;
@@ -53,12 +88,40 @@
 			remoteGlobalIDString = A6C2B0853E254E96F257E583;
 			remoteInfo = Features;
 		};
+		59359844FB6B0A90FB57021F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49884E5FD6CA0F990875343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184D62C190D0CC630F701E5A;
+			remoteInfo = MeditationsClient;
+		};
+		783C0F6C0BF28F6A953F45E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49884E5FD6CA0F990875343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E175427CD90E5F0C3C07F588;
+			remoteInfo = MeditationsClientLive;
+		};
+		8BD98BE24920DF2CC53A7976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49884E5FD6CA0F990875343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184D62C190D0CC630F701E5A;
+			remoteInfo = MeditationsClient;
+		};
 		B594E3064B0BDF6E5DFBFC58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B49884E5FD6CA0F990875343 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A6C2B0853E254E96F257E583;
 			remoteInfo = Features;
+		};
+		E137F4DD12FCA2389C3BC9D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49884E5FD6CA0F990875343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184D62C190D0CC630F701E5A;
+			remoteInfo = MeditationsClient;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -70,6 +133,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				59D378D7E8A9D1518CD2183D /* Features.framework in Embed Frameworks */,
+				60658EAC64E8F8B24893007A /* MeditationsClient.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +145,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				333CDEC3AB5666CDCF0DDB64 /* Features.framework in Embed Frameworks */,
+				5408F330DEA8355D34F8BF0D /* MeditationsClient.framework in Embed Frameworks */,
+				67A587C9A7E6D049676BBBA0 /* MeditationsClientLive.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +158,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				3C482594ACA9596FA0AAC1D8 /* Features.framework in Embed Frameworks */,
+				EEDAA0F2DE409107245CAFAA /* MeditationsClient.framework in Embed Frameworks */,
+				941088A925A0DAE3614CC2A1 /* MeditationsClientLive.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,21 +167,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		058D128A98F62956B6046360 /* MeditationsClientLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeditationsClientLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0902883730EE044AB246CBDB /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		108DB2B8F3D1AC07C0E8E678 /* Features.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Features.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		354DF0F61ECBDBFA36379067 /* get_meditations_with_location_200.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_meditations_with_location_200.json; sourceTree = "<group>"; };
 		404B23ADDB8172B0F16C298C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		516DD0E05D6520147972A3D3 /* MeditationsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsClient.swift; sourceTree = "<group>"; };
 		60E68E7A6722F6568E28B1D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64085216504053D56A7B6B0B /* Development.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Development.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7201E72345E87E8F3E7F6667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		77773AB359D7DD794585CEE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8058981A12DCF87B42A2AC92 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		808AB8EA0CCA3B30B11F1A96 /* Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
 		827CC73933A79032433B93A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		84059DE809FA1E99E1A92755 /* MeditationsClientLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsClientLive.swift; sourceTree = "<group>"; };
 		8414FE6041CCBEE998C33A6B /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		858DE55E040437432757CAF6 /* Mock.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Mock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FD1B38AF7AF37AD1C17DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B080E3B4B7F546FA708485D1 /* Production.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B562A7B669D9B1913A05D75F /* FeaturesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesAssembly.swift; sourceTree = "<group>"; };
+		C9980CAC74B5A8A7448C7DD1 /* MeditationsClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsClientMock.swift; sourceTree = "<group>"; };
 		E1105FAB482003F1AE0981C4 /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
 		E765B3A1C49160433A7C8865 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeditationsClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F424C6F039AB188615125AFB /* get_meditations_200.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_meditations_200.json; sourceTree = "<group>"; };
+		F84FA4C710BFE35B44714762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FDBCE0E5F7A3FE449015FD35 /* Meditations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A561511BC657E2F0E29CCBF5 /* Features.framework in Frameworks */,
+				1F18BEF6FE008E74E17D4B74 /* MeditationsClient.framework in Frameworks */,
+				82851EE77DC0EBE8471BF4AA /* MeditationsClientLive.framework in Frameworks */,
 				FC3071E2128D6DD1D50E0A90 /* Swinject in Frameworks */,
 				D4C6C4F13B6E44DF94B69DF0 /* SwinjectAutoregistration in Frameworks */,
 			);
@@ -142,6 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1F0C21F3D8677F0ACA5FC6C /* Features.framework in Frameworks */,
+				35CC8EDB3189A9CF2A76A596 /* MeditationsClient.framework in Frameworks */,
+				5B2FAFC8D9B5EA8B59C5862F /* MeditationsClientLive.framework in Frameworks */,
 				E7DB07F7FF3379C72C9C9963 /* Swinject in Frameworks */,
 				080B394147A0FDE7D477F81E /* SwinjectAutoregistration in Frameworks */,
 			);
@@ -152,8 +234,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D20CF9811F0E277F3E3A56CD /* Features.framework in Frameworks */,
+				E94DEBED1F9B8924FFBA439A /* MeditationsClient.framework in Frameworks */,
 				0BC209FF661A24E465950AAB /* Swinject in Frameworks */,
 				D965EE1700010CAE8693DDC2 /* SwinjectAutoregistration in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D6BC2FFF711F4F45832028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72FB7F35C995FC4D314D9A4 /* MeditationsClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +298,8 @@
 			children = (
 				64085216504053D56A7B6B0B /* Development.app */,
 				108DB2B8F3D1AC07C0E8E678 /* Features.framework */,
+				ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */,
+				058D128A98F62956B6046360 /* MeditationsClientLive.framework */,
 				858DE55E040437432757CAF6 /* Mock.app */,
 				B080E3B4B7F546FA708485D1 /* Production.app */,
 			);
@@ -239,6 +332,15 @@
 			path = System;
 			sourceTree = "<group>";
 		};
+		9CB94ACD6B2836DCF6B36919 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				7201E72345E87E8F3E7F6667 /* Info.plist */,
+				84059DE809FA1E99E1A92755 /* MeditationsClientLive.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
 		A07A56AB344C4D1D4A18E691 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,14 +360,36 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		C4794E7C119DB6864260A6DE /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F424C6F039AB188615125AFB /* get_meditations_200.json */,
+				354DF0F61ECBDBFA36379067 /* get_meditations_with_location_200.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		CC3DC3BD8B46764707FED0F5 = {
 			isa = PBXGroup;
 			children = (
+				EF9CAC346B7831827F45E848 /* Clients */,
 				0D1C546D955D99DD46FF80A2 /* Configs */,
 				6792E124C19991122A5B1AE0 /* Features */,
 				5A5152899C2F63E0390DAF69 /* Meditations */,
+				C4794E7C119DB6864260A6DE /* Mocks */,
 				63458291EBC65FFD1826CA3C /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		DBBB6AC330D01F3180B60EF9 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				808AB8EA0CCA3B30B11F1A96 /* Domain.swift */,
+				F84FA4C710BFE35B44714762 /* Info.plist */,
+				516DD0E05D6520147972A3D3 /* MeditationsClient.swift */,
+				C9980CAC74B5A8A7448C7DD1 /* MeditationsClientMock.swift */,
+			);
+			path = Interface;
 			sourceTree = "<group>";
 		};
 		E150494DBB2F904444FF8260 /* Sources */ = {
@@ -274,6 +398,23 @@
 				FDBCE0E5F7A3FE449015FD35 /* Meditations.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		EF9CAC346B7831827F45E848 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				F3AC82ADF8120AA316F0DE79 /* MeditationsClient */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		F3AC82ADF8120AA316F0DE79 /* MeditationsClient */ = {
+			isa = PBXGroup;
+			children = (
+				DBBB6AC330D01F3180B60EF9 /* Interface */,
+				9CB94ACD6B2836DCF6B36919 /* Live */,
+			);
+			path = MeditationsClient;
 			sourceTree = "<group>";
 		};
 		FF13409ECA8042D6EEB16FB9 /* Sources */ = {
@@ -289,6 +430,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		184D62C190D0CC630F701E5A /* MeditationsClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B4628DDF97AF522BBA6DEB /* Build configuration list for PBXNativeTarget "MeditationsClient" */;
+			buildPhases = (
+				E37C5937ED8851FFD8875A24 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeditationsClient;
+			productName = MeditationsClient;
+			productReference = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A6C2B0853E254E96F257E583 /* Features */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B22C0C3B31216269CA464E9 /* Build configuration list for PBXNativeTarget "Features" */;
@@ -323,6 +479,8 @@
 			);
 			dependencies = (
 				4529B989FCAD47351078E536 /* PBXTargetDependency */,
+				CED74BD3BCA4CAE4B6EAF5BD /* PBXTargetDependency */,
+				63AD459DE8391538478FFBA0 /* PBXTargetDependency */,
 			);
 			name = Production;
 			packageProductDependencies = (
@@ -347,6 +505,8 @@
 			);
 			dependencies = (
 				D5E2B86FA69B94AD11CB7A1A /* PBXTargetDependency */,
+				F27FF43A773E6BC89ABD80C8 /* PBXTargetDependency */,
+				9C16E9AA86EFA13D467E4D6C /* PBXTargetDependency */,
 			);
 			name = Development;
 			packageProductDependencies = (
@@ -371,6 +531,7 @@
 			);
 			dependencies = (
 				49A8FC91585C7A1D520CE472 /* PBXTargetDependency */,
+				C4FF0D6F823412E549443DCF /* PBXTargetDependency */,
 			);
 			name = Mock;
 			packageProductDependencies = (
@@ -381,6 +542,23 @@
 			productReference = 858DE55E040437432757CAF6 /* Mock.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E175427CD90E5F0C3C07F588 /* MeditationsClientLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242AA67215C3B3B1928FC14C /* Build configuration list for PBXNativeTarget "MeditationsClientLive" */;
+			buildPhases = (
+				1AA90356A6766D9CC872F1C3 /* Sources */,
+				B7D6BC2FFF711F4F45832028 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C65F8CD659DF6CCCCFA9CEF9 /* PBXTargetDependency */,
+			);
+			name = MeditationsClientLive;
+			productName = MeditationsClientLive;
+			productReference = 058D128A98F62956B6046360 /* MeditationsClientLive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -389,6 +567,9 @@
 			attributes = {
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					184D62C190D0CC630F701E5A = {
+						ProvisioningStyle = Automatic;
+					};
 					A6C2B0853E254E96F257E583 = {
 						ProvisioningStyle = Automatic;
 					};
@@ -399,6 +580,9 @@
 						ProvisioningStyle = Automatic;
 					};
 					D41CD2FD200C1BF648ED5B11 = {
+						ProvisioningStyle = Automatic;
+					};
+					E175427CD90E5F0C3C07F588 = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -421,6 +605,8 @@
 			targets = (
 				D37AA8454A0E5B73FAA9EDEE /* Development */,
 				A6C2B0853E254E96F257E583 /* Features */,
+				184D62C190D0CC630F701E5A /* MeditationsClient */,
+				E175427CD90E5F0C3C07F588 /* MeditationsClientLive */,
 				D41CD2FD200C1BF648ED5B11 /* Mock */,
 				CA13463D61F9D237409CF57E /* Production */,
 			);
@@ -434,6 +620,8 @@
 			files = (
 				D4E536D261995926460DD0DD /* Assets.xcassets in Resources */,
 				B6C9C6D82D1EECAB38B27F12 /* Preview Assets.xcassets in Resources */,
+				2A193D1B443EFD55C491D0EA /* get_meditations_200.json in Resources */,
+				26B4319943142BEB9A6D4BEA /* get_meditations_with_location_200.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +631,8 @@
 			files = (
 				808A3869A092DE1BDA71BE28 /* Assets.xcassets in Resources */,
 				BC8FE2503EEA27070A510DCD /* Preview Assets.xcassets in Resources */,
+				4976956AD5BD4124F89F24B8 /* get_meditations_200.json in Resources */,
+				AD5D7C0651541028BCA793CB /* get_meditations_with_location_200.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +642,8 @@
 			files = (
 				8FB3FA23BD372CA9849B5453 /* Assets.xcassets in Resources */,
 				903178B7E239F76A1C836B88 /* Preview Assets.xcassets in Resources */,
+				CEBFC9187D566F7CA54E44E2 /* get_meditations_200.json in Resources */,
+				C9353D8EB1BC7BF0235CEC0B /* get_meditations_with_location_200.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +707,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1AA90356A6766D9CC872F1C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C66D79BB129F30C82A56BBA /* MeditationsClientLive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C03C8E0B247F1F7F200C1E1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -543,6 +743,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E37C5937ED8851FFD8875A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CB384E8F9E2AF4BE5DFFCB /* Domain.swift in Sources */,
+				44FCCFCF94A44C1DD6C322F9 /* MeditationsClient.swift in Sources */,
+				80661750F5BE7BB2EB71FA9E /* MeditationsClientMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E5F1173DC08172A3BDB8EF4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -565,10 +775,40 @@
 			target = A6C2B0853E254E96F257E583 /* Features */;
 			targetProxy = 4A1FAB97535DB8F7279B8CA7 /* PBXContainerItemProxy */;
 		};
+		63AD459DE8391538478FFBA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E175427CD90E5F0C3C07F588 /* MeditationsClientLive */;
+			targetProxy = 02FEE667E449FA2D48DCB26D /* PBXContainerItemProxy */;
+		};
+		9C16E9AA86EFA13D467E4D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E175427CD90E5F0C3C07F588 /* MeditationsClientLive */;
+			targetProxy = 783C0F6C0BF28F6A953F45E0 /* PBXContainerItemProxy */;
+		};
+		C4FF0D6F823412E549443DCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184D62C190D0CC630F701E5A /* MeditationsClient */;
+			targetProxy = 59359844FB6B0A90FB57021F /* PBXContainerItemProxy */;
+		};
+		C65F8CD659DF6CCCCFA9CEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184D62C190D0CC630F701E5A /* MeditationsClient */;
+			targetProxy = 30118327D7BFBBB7CBEAF0E1 /* PBXContainerItemProxy */;
+		};
+		CED74BD3BCA4CAE4B6EAF5BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184D62C190D0CC630F701E5A /* MeditationsClient */;
+			targetProxy = 8BD98BE24920DF2CC53A7976 /* PBXContainerItemProxy */;
+		};
 		D5E2B86FA69B94AD11CB7A1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A6C2B0853E254E96F257E583 /* Features */;
 			targetProxy = B594E3064B0BDF6E5DFBFC58 /* PBXContainerItemProxy */;
+		};
+		F27FF43A773E6BC89ABD80C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184D62C190D0CC630F701E5A /* MeditationsClient */;
+			targetProxy = E137F4DD12FCA2389C3BC9D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -604,6 +844,28 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.meditations.app.Features;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		1BF47EAB140571A3E965B265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Clients/MeditationsClient/Live/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meditations.app.MeditationsClientLive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -672,6 +934,28 @@
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
+		};
+		36468CC17D42C2566F0F8CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Clients/MeditationsClient/Interface/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meditations.app.MeditationsClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
 		};
 		4CA4E0E98A8F73938523B10A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -796,6 +1080,50 @@
 			};
 			name = Debug;
 		};
+		C53168C1D4D6813015C60F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Clients/MeditationsClient/Interface/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meditations.app.MeditationsClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		D060E7A925F02CFFF9550A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Clients/MeditationsClient/Live/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meditations.app.MeditationsClientLive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
 		E0C2209721BDDF2EE8FEE53F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -847,6 +1175,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		242AA67215C3B3B1928FC14C /* Build configuration list for PBXNativeTarget "MeditationsClientLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D060E7A925F02CFFF9550A5E /* Debug */,
+				1BF47EAB140571A3E965B265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		5B22C0C3B31216269CA464E9 /* Build configuration list for PBXNativeTarget "Features" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -870,6 +1207,15 @@
 			buildConfigurations = (
 				F3DD3763DD085A3050E27AF4 /* Debug */,
 				0194E9D1D45DD0132C789C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E2B4628DDF97AF522BBA6DEB /* Build configuration list for PBXNativeTarget "MeditationsClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36468CC17D42C2566F0F8CBF /* Debug */,
+				C53168C1D4D6813015C60F62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

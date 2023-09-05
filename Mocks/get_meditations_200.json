@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "audio_files" : [
+            {
+                "id": 101,
+                "name": "",
+                "audio": "https://api.momentsofspace.com/api/audio/101/download/",
+                "version": "1.0",
+                "duration": 527
+            }
+        ],
+        "title": "Mellow Out",
+        "subtitle": "Emotion",
+        "description": "Some description"
+    },
+    {
+        "id": 2,
+        "audio_files" : [
+            {
+                "id": 102,
+                "name": "",
+                "audio": "https://api.momentsofspace.com/api/audio/101/download/",
+                "version": "1.0",
+                "duration": 300
+            }
+        ],
+        "title": "Allow That",
+        "subtitle": "Acceptance",
+        "description": "Some description"
+    }
+]

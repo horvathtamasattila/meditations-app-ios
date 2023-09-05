@@ -1,0 +1,16 @@
+---
+targets:
+  MeditationsClient:
+    type: framework
+    platform: iOS
+    sources:
+      - path: Interface
+        createIntermediateGroups: true
+  MeditationsClientLive:
+    type: framework
+    platform: iOS
+    sources:
+      - path: Live
+        createIntermediateGroups: true
+    dependencies: 
+      - target: MeditationsClient

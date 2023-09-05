@@ -29,6 +29,7 @@ configFiles:
   Release: Configs/Release.xcconfig
 include:
     - Features/Features.yml
+    - Clients/MeditationsClient/MeditationsClient.yml
 packages:
   Swinject:
     url: https://github.com/Swinject/Swinject.git
@@ -53,6 +54,8 @@ targets:
     sources:
       - path: Meditations/Configurations/Live
         createIntermediateGroups: true
+    dependencies:
+      - target: MeditationsClientLive
   Production:
     type: application
     platform: iOS
@@ -61,6 +64,8 @@ targets:
     sources:
       - path: Meditations/Configurations/Live
         createIntermediateGroups: true
+    dependencies:
+      - target: MeditationsClientLive
 targetTemplates:
   Meditations:
     type: application
@@ -68,11 +73,14 @@ targetTemplates:
     sources:
       - path: Meditations/Common
         createIntermediateGroups: true
+      - path: Mocks
+        createIntermediateGroups: true
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.meditations.app
     dependencies:
       - target: Features
+      - target: MeditationsClient
       - package: Swinject
       - package: SwinjectAutoregistration
     prebuildScripts:
