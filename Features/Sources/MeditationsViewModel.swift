@@ -10,8 +10,7 @@ final class MeditationsViewModel: ObservableObject {
 
     init(interactor: MeditationsInteractor) {
         self.interactor = interactor
-        unowned let unownedSelf = self
-
+        
         interactor.dataStateSubject
             .assign(to: &$viewState)
 

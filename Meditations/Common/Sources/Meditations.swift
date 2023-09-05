@@ -8,7 +8,7 @@ struct BaseProject: App {
         DI.initialize(assemblies: [
             AppAssembly(),
             FeaturesAssembly(),
-            UtilitiesAssembly(),
+            UtilitiesAssembly()
         ])
     }
 
