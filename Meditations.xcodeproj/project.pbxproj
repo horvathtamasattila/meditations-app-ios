@@ -27,11 +27,15 @@
 		3C482594ACA9596FA0AAC1D8 /* Features.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3CCF419514331BE1151E24E4 /* SpaceGrotesk-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186D1F584230A6161D38ADA8 /* SpaceGrotesk-Medium.otf */; };
 		3D83D05909FFBE80B087CF9C /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D07F965DFF57992B60B6241B /* Swinject */; };
+		43EA2496B609529E93311A83 /* SpaceGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C6241E99C026C45090F6489 /* SpaceGrotesk-Bold.otf */; };
 		44FCCFCF94A44C1DD6C322F9 /* MeditationsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516DD0E05D6520147972A3D3 /* MeditationsClient.swift */; };
 		48AB7A8ED163ECB533387804 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A5F181B7C00868AAAFAD73 /* Colors.xcassets */; };
+		48FBB56BC06649702D43727D /* SpaceGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C6241E99C026C45090F6489 /* SpaceGrotesk-Bold.otf */; };
 		4976956AD5BD4124F89F24B8 /* get_meditations_200.json in Resources */ = {isa = PBXBuildFile; fileRef = F424C6F039AB188615125AFB /* get_meditations_200.json */; };
 		49F55C6CC07F4031C9304506 /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A441A6AC7BD5645255491D7 /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4DFF91DB3973DB27B2F9D3AB /* SpaceGrotesk-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186D1F584230A6161D38ADA8 /* SpaceGrotesk-Medium.otf */; };
+		51758069F34087E8370D0F19 /* SpaceGrotesk-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8A8F36ACD38DF95184618D /* SpaceGrotesk-SemiBold.otf */; };
+		53CD30739AB3618B0359C51F /* SpaceGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C6241E99C026C45090F6489 /* SpaceGrotesk-Bold.otf */; };
 		5408F330DEA8355D34F8BF0D /* MeditationsClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		55B88EE63D9D0B01F8711239 /* Meditations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBCE0E5F7A3FE449015FD35 /* Meditations.swift */; };
 		59D378D7E8A9D1518CD2183D /* Features.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -50,6 +54,7 @@
 		9079088E6B1B8E481DAD92B5 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8058981A12DCF87B42A2AC92 /* AppAssembly.swift */; };
 		941088A925A0DAE3614CC2A1 /* MeditationsClientLive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 058D128A98F62956B6046360 /* MeditationsClientLive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		962C7F00F5E159268F7B1FBB /* MeditationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3385B2819F15AEE5B4B53 /* MeditationsViewModel.swift */; };
+		A469D153BE15C2EA9A0A846E /* SpaceGrotesk-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8A8F36ACD38DF95184618D /* SpaceGrotesk-SemiBold.otf */; };
 		A561511BC657E2F0E29CCBF5 /* Features.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108DB2B8F3D1AC07C0E8E678 /* Features.framework */; };
 		AD5D7C0651541028BCA793CB /* get_meditations_with_location_200.json in Resources */ = {isa = PBXBuildFile; fileRef = 354DF0F61ECBDBFA36379067 /* get_meditations_with_location_200.json */; };
 		AE02217B3C597551165D50D0 /* MeditationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FEA33FAEF7B451FA02E5A7 /* MeditationsView.swift */; };
@@ -60,6 +65,7 @@
 		B72FB7F35C995FC4D314D9A4 /* MeditationsClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8BEA3CDA77C58B7B739B00 /* MeditationsClient.framework */; };
 		BB0ADC1BF7F898ECAAC8A601 /* FeaturesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B562A7B669D9B1913A05D75F /* FeaturesAssembly.swift */; };
 		BC8FE2503EEA27070A510DCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E68E7A6722F6568E28B1D7 /* Preview Assets.xcassets */; };
+		BCD2C9730CB8497FEDAD7F34 /* SpaceGrotesk-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8A8F36ACD38DF95184618D /* SpaceGrotesk-SemiBold.otf */; };
 		C785DD9247FD1047B6FCAA50 /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1105FAB482003F1AE0981C4 /* DI.swift */; };
 		C9353D8EB1BC7BF0235CEC0B /* get_meditations_with_location_200.json in Resources */ = {isa = PBXBuildFile; fileRef = 354DF0F61ECBDBFA36379067 /* get_meditations_with_location_200.json */; };
 		CDA8BD2DDC8EEDE5B47680A9 /* MeditationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F035A99C28D5A10FA0197DC /* MeditationsInteractor.swift */; };
@@ -214,6 +220,8 @@
 		058D128A98F62956B6046360 /* MeditationsClientLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeditationsClientLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BDE50C314DDB8B7EB6C11F /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 		0902883730EE044AB246CBDB /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		0A8A8F36ACD38DF95184618D /* SpaceGrotesk-SemiBold.otf */ = {isa = PBXFileReference; path = "SpaceGrotesk-SemiBold.otf"; sourceTree = "<group>"; };
+		0C6241E99C026C45090F6489 /* SpaceGrotesk-Bold.otf */ = {isa = PBXFileReference; path = "SpaceGrotesk-Bold.otf"; sourceTree = "<group>"; };
 		108DB2B8F3D1AC07C0E8E678 /* Features.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Features.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FEA33FAEF7B451FA02E5A7 /* MeditationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsView.swift; sourceTree = "<group>"; };
 		186D1F584230A6161D38ADA8 /* SpaceGrotesk-Medium.otf */ = {isa = PBXFileReference; path = "SpaceGrotesk-Medium.otf"; sourceTree = "<group>"; };
@@ -395,7 +403,9 @@
 				404B23ADDB8172B0F16C298C /* Assets.xcassets */,
 				C0A5F181B7C00868AAAFAD73 /* Colors.xcassets */,
 				88FD1B38AF7AF37AD1C17DFC /* Info.plist */,
+				0C6241E99C026C45090F6489 /* SpaceGrotesk-Bold.otf */,
 				186D1F584230A6161D38ADA8 /* SpaceGrotesk-Medium.otf */,
+				0A8A8F36ACD38DF95184618D /* SpaceGrotesk-SemiBold.otf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -748,7 +758,9 @@
 				D4E536D261995926460DD0DD /* Assets.xcassets in Resources */,
 				2AC8369BEAFD67CD0FA06C52 /* Colors.xcassets in Resources */,
 				B6C9C6D82D1EECAB38B27F12 /* Preview Assets.xcassets in Resources */,
+				43EA2496B609529E93311A83 /* SpaceGrotesk-Bold.otf in Resources */,
 				F0BD8604C912CAC1B962D9B0 /* SpaceGrotesk-Medium.otf in Resources */,
+				A469D153BE15C2EA9A0A846E /* SpaceGrotesk-SemiBold.otf in Resources */,
 				2A193D1B443EFD55C491D0EA /* get_meditations_200.json in Resources */,
 				26B4319943142BEB9A6D4BEA /* get_meditations_with_location_200.json in Resources */,
 			);
@@ -761,7 +773,9 @@
 				808A3869A092DE1BDA71BE28 /* Assets.xcassets in Resources */,
 				072365BF9AB3347C8071806D /* Colors.xcassets in Resources */,
 				BC8FE2503EEA27070A510DCD /* Preview Assets.xcassets in Resources */,
+				48FBB56BC06649702D43727D /* SpaceGrotesk-Bold.otf in Resources */,
 				3CCF419514331BE1151E24E4 /* SpaceGrotesk-Medium.otf in Resources */,
+				51758069F34087E8370D0F19 /* SpaceGrotesk-SemiBold.otf in Resources */,
 				4976956AD5BD4124F89F24B8 /* get_meditations_200.json in Resources */,
 				AD5D7C0651541028BCA793CB /* get_meditations_with_location_200.json in Resources */,
 			);
@@ -774,7 +788,9 @@
 				8FB3FA23BD372CA9849B5453 /* Assets.xcassets in Resources */,
 				48AB7A8ED163ECB533387804 /* Colors.xcassets in Resources */,
 				903178B7E239F76A1C836B88 /* Preview Assets.xcassets in Resources */,
+				53CD30739AB3618B0359C51F /* SpaceGrotesk-Bold.otf in Resources */,
 				4DFF91DB3973DB27B2F9D3AB /* SpaceGrotesk-Medium.otf in Resources */,
+				BCD2C9730CB8497FEDAD7F34 /* SpaceGrotesk-SemiBold.otf in Resources */,
 				CEBFC9187D566F7CA54E44E2 /* get_meditations_200.json in Resources */,
 				C9353D8EB1BC7BF0235CEC0B /* get_meditations_with_location_200.json in Resources */,
 			);

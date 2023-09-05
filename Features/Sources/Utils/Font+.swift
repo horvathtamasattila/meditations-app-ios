@@ -2,7 +2,7 @@ import SwiftUI
 
 extension Font {
     enum FontType: String {
-        case spaceGrotesk = "SpaceGrotesk-Medium"
+        case spaceGrotesk = "SpaceGrotesk-SemiBold"
     }
 
     static func font(type: FontType, size: CGFloat) -> Font {
