@@ -4,7 +4,7 @@ options:
   bundleIdPrefix: com.meditations.app
   transitivelyLinkDependencies: true
   deploymentTarget:
-    iOS: 14.0
+    iOS: 16.0
 settings:
   base:
     CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED: true

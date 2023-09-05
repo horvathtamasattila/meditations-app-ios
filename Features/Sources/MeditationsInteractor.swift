@@ -7,6 +7,7 @@ import Utilities
 
 final class MeditationsInteractor {
     let meditationsPublisher: PassthroughSubject<[Meditation], Never>
+    let dataStateSubject: PassthroughSubject<DataState, Never>
 
     private let locationProvider: LocationProvider
     private let meditationsClient: MeditationsClient
@@ -16,32 +17,46 @@ final class MeditationsInteractor {
         self.locationProvider = locationProvider
         self.meditationsClient = meditationsClient
         meditationsPublisher = PassthroughSubject<[Meditation], Never>()
+        dataStateSubject = PassthroughSubject<DataState, Never>()
+        dataStateSubject.send(.loading)
         unowned let unownedSelf = self
 
         if !locationProvider.isEnabled {
             meditationsClient.getMeditations(nil)
                 .sink(
-                    receiveCompletion: { _ in
+                    receiveCompletion: { completion in
+                        if case .failure = completion {
+                            unownedSelf.dataStateSubject.send(.error)
+                        }
                     },
                     receiveValue: { meditations in
                         unownedSelf.meditationsPublisher.send(meditations)
+                        unownedSelf.dataStateSubject.send(.loaded)
                     }
                 )
                 .store(in: &cancellables)
         }
 
         locationProvider.$lastSeenLocation
+            .dropFirst()
+            .handleEvents(receiveOutput: { _ in
+                unownedSelf.dataStateSubject.send(.loading)
+            })
             .flatMap { location -> AnyPublisher<[Meditation], ApiError> in
                 self.meditationsClient.getMeditations(location?.coordinate).eraseToAnyPublisher()
             }
             .sink(
-                receiveCompletion: { _ in
+                receiveCompletion: { completion in
+                    if case .failure = completion {
+                        unownedSelf.dataStateSubject.send(.error)
+                    }
                 },
                 receiveValue: { meditations in
                     unownedSelf.meditationsPublisher.send(meditations)
+                    unownedSelf.dataStateSubject.send(.loaded)
                 }
             )
-            .store(in: &cancellables)
+            .store(in: &unownedSelf.cancellables)
     }
 
     func requestLocationPermission() {
@@ -52,4 +67,10 @@ final class MeditationsInteractor {
             locationProvider.requestPermission()
         }
     }
+}
+
+enum DataState {
+    case error
+    case loading
+    case loaded
 }

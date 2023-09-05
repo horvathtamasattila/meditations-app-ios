@@ -4,7 +4,7 @@ public struct MeditationsView: View {
     @StateObject var viewModel = inject(MeditationsViewModel.self)
     public init() {}
     public var body: some View {
-        VStack(spacing: .zero) {
+        VStack(alignment: .leading, spacing: .zero) {
             HStack {
                 Spacer()
                 Image(systemName: "location.circle")
@@ -18,14 +18,41 @@ public struct MeditationsView: View {
                         viewModel.requestLocationDidtap()
                     }
             }
-            ScrollView {
-                ForEach(viewModel.meditations, id: \.self) { meditation in
-                    cardView(
-                        title: meditation.title,
-                        description: meditation.subtitle,
-                        audioLenght: meditation.audioLength
+            Text("Meditations")
+                .font(.font(type: .spaceGrotesk, size: 36))
+                .foregroundStyle(
+                    LinearGradient(
+                        colors: [.textLeading, .texttrailing],
+                        startPoint: .leading,
+                        endPoint: .trailing
                     )
-                    .padding(.horizontal, 16)
+                )
+                .padding(.leading, 16)
+                .padding(.bottom, 32)
+            ScrollView {
+                switch viewModel.viewState {
+                case .loading:
+                    VStack {
+                        ForEach(0 ... 2, id: \.self) { _ in
+                            cardView(
+                                title: "Placeholder Title",
+                                description: "Placeholder Description",
+                                audioLenght: 100
+                            )
+                            .redacted(reason: .placeholder)
+                        }
+                    }
+                case .loaded:
+                    ForEach(viewModel.meditations, id: \.self) { meditation in
+                        cardView(
+                            title: meditation.title,
+                            description: meditation.subtitle,
+                            audioLenght: meditation.audioLength
+                        )
+                        .padding(.horizontal, 16)
+                    }
+                case .error:
+                    Text("Couldn't load data")
                 }
             }
         }

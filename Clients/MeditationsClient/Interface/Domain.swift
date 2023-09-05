@@ -7,7 +7,7 @@ public struct Meditation: Decodable, Hashable, Equatable {
     var audio_files: [Audio]
 
     public var audioLength: Int? {
-        (audio_files.first?.duration ?? 0) % 60
+        (audio_files.first?.duration ?? 0) / 60
     }
 }
 
